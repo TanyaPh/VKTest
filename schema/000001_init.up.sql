@@ -1,5 +1,6 @@
 CREATE TABLE users_checks
 (
-    id serial not null unique,
-    checks int not null default 0
+    id int not null,
+    time timestamp default current_timestamp
 );
+

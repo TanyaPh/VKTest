@@ -1,8 +1,7 @@
-control_duration: 4
-checks_limit: 2000
+control_duration: 2
+checks_limit: 100
 
 db:
-    username: "postgres"
     host: "localhost"
     port: "5432"
     dbname: "flood_control"
